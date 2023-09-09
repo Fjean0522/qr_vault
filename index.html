@@ -25,6 +25,29 @@
                     QR Codes allow smartphone users quick and easy access to your website.
                 </p>
                 <p>Enter your URL below to generate a QR Code and download the image.</p>
+
+                <form id="generate-form" class="mt-4">
+                    <input 
+                        id="url"
+                        type="url" 
+                        placeholder="Enter a URL"
+                        class="w-full border-2 border-gray-200 rounded p-3 text-gray-dark mr-2 mb-5 focus:outline-blue-500"
+                    />
+
+                    <select 
+                        id="size" 
+                        class="w-full border-2 border-gray-200 rounded p-3 text-gray-dark mr-2 focus:outline-blue-500"
+                    >
+                        <option value="100">100x100</option>
+                        <option value="200">200x200</option>
+                        <option value="300">300x300</option>
+                        <option value="400">400x400</option>
+                        <option value="500">500x500</option>
+                        <option value="600">600x600</option>
+                        <option value="700">700x700</option>
+                    </select>
+                                              
+                </form>
             </div>
 
             <div class="w-full md:w-1/3 self-center">
