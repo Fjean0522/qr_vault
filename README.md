@@ -3,3 +3,5 @@ A QR Code generator tailored for URLs, simplifying the process of sharing web li
 
 # Live preview
 https://fjean0522.github.io/qr_vault/
+
+![Website Screenshot](/images/qr_vault-prev.png)
