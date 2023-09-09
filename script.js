@@ -1,5 +1,5 @@
 const form = document.getElementById('generate-form');
-const qr = document.getElementById('qrcode');
+const qrcode = document.getElementById('qrcode');
 
 const submitDetails = (e) => {
     e.preventDefault();
@@ -11,10 +11,20 @@ const submitDetails = (e) => {
         alert('Enter a URL')
     } else {
         loadSpinner();
+
         setTimeout(() => {
             hideSpinner();
+            generateQRCode(url, size);
         }, 1000);
     };
+};
+
+const generateQRCode = (url, size) => {
+    const qrcode = new QRCode('qrcode', {
+        text: url,
+        width: size,
+        height: size
+    });
 };
 
 const loadSpinner = () => {
