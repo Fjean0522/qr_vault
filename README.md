@@ -12,6 +12,3 @@ Generated QR Codes are available for download, so users can save their QR Codes 
 
 * **User-Friendly Interface**  
 QR Vault boasts an intuitive and user-friendly interface, making it accessible for users of all technical backgrounds. Generating QR Codes has never been this straightforward.
-
-### Live preview
-https://fjean0522.github.io/qr_vault/
